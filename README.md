@@ -17,3 +17,7 @@ An AI-powered browser extension that helps users with smart assistance directly 
 2. Open Chrome → Extensions
 3. Enable Developer Mode
 4. Load unpacked → select folder
+
+![Extension Popup](assets/Popup.png)
+![Extension in Action](assets/Working.png)
+![Extension Button](assets/Button.png)
