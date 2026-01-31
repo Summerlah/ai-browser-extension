@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Contextual AI Assistant",
+  "version": "1.0",
+  "description": "Select text anywhere and chat with AI instantly.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "open-ai": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A"
+      },
+      "description": "Open Contextual AI popup"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
