@@ -18,6 +18,7 @@ An AI-powered browser extension that helps users with smart assistance directly 
 3. Enable Developer Mode
 4. Load unpacked → select folder
 
-![Screenshot](assets/Popup.png)
-![Screenshot](assets/Button.png)
-![Screenshot](assets/Working.png)
+
+![Popup](Popup.png)
+![Working](Working.png)
+![Button](Button.png)
